@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="w-full px-20 py-8 font-Neueue-Montreal ">
+    <div className="w-full px-20 py-8 font-Neueue-Montreal flex justify-between items-center">
       <div className="logo">
         <svg
           width="72"
@@ -31,11 +31,14 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="links">
-        {["Services", "Our work", "About us", "Insights"].map((item, index) => (
+      <div className="links flex gap-10 ">
+        {["Services", "Our work", "About us", "Insights",
+        "Contact"].map((item, index) => (
           <>
             <a
-              className="text-md font-semibold font-Founders-Grotesk"
+              className={`text-md font-light font-Neueue-Montreal capitalize ${
+                index === 4 && "ml-32"
+              }`}
               key={index}
             >
               {item}
