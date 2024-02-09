@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "Neue-Montreal": ["Neue-Montreal"],
         "Founders-Grotesk": ["Founders-Grotesk"],
+        "Neueue-Montreal": ["Neueue-Montreal"],
       },
     },
   },

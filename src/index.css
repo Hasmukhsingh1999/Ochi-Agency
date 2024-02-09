@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Neueue Montreal";
-    src: url("./fonts/NeueMontreal-Regular.woff2");
+  font-family: "Neueue-Montreal";
+  src: url("./fonts/NeueMontreal-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Founders Grotesk";
-    src: url('./fonts/FoundersGrotesk-Semibold.woff2');
+  font-family: "Founders-Grotesk";
+  src: url("./fonts/FoundersGrotesk-Semibold.ttf");
 }

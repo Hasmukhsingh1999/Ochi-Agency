@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="w-full px-20 py-8 ">
+    <div className="w-full px-20 py-8 font-Neueue-Montreal ">
       <div className="logo">
         <svg
           width="72"
@@ -34,7 +34,10 @@ const Navbar = () => {
       <div className="links">
         {["Services", "Our work", "About us", "Insights"].map((item, index) => (
           <>
-            <a className="text-md font-semibold" key={index}>
+            <a
+              className="text-md font-semibold font-Founders-Grotesk"
+              key={index}
+            >
               {item}
             </a>
           </>
