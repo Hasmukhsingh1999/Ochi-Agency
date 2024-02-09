@@ -1,3 +1,4 @@
+import About from "./components/About/About";
 import Landing from "./components/Landing/Landing";
 import Marquee from "./components/Marquee/Marquee";
 import Navbar from "./components/Navbar/Navbar";
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <Landing />
       <Marquee />
+      <About />
     </div>
   );
 };
