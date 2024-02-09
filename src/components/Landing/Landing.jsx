@@ -1,6 +1,6 @@
 const Landing = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div className="w-full h-screen bg-zinc-900 pt-1 text-white">
       <div className="textstructure mt-32 px-20">
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => (
           <div className="masker font-Neueue-Montreal" key={index}>
@@ -8,7 +8,7 @@ const Landing = () => {
               {index === 1 && (
                 <div className="w-[9vw] mr-[1vw] h-[5vw] bg-red-500 rounded-md"></div>
               )}
-              <h1 className="uppercase text-8xl h-full -leading-[-5vw] tracking-tighter font-md flex items-center">
+              <h1 className="uppercase text-8xl h-full -leading-[-5vw] tracking-tighter font-semibold flex items-center">
                 {item}
               </h1>
             </div>
@@ -22,13 +22,13 @@ const Landing = () => {
         ].map((item, index) => (
           <p
             key={index}
-            className="text-md font-light tracking-tight leading-none "
+            className="text-lg font-semibold tracking-tight leading-none "
           >
             {item}
           </p>
         ))}
         <div className="start flex items-center gap-3">
-          <div className="px-7 py-2 border-[1px] border-zinc-600  rounded-full capitalize font-light text-sm">
+          <div className="px-7 py-2 border-[1px] border-zinc-600  rounded-full capitalize font-semibold text-sm">
             start the project
           </div>
           <div className="w-10 h-10 rounded-full border-[1px] border-zinc-600 flex items-center justify-center">
