@@ -1,7 +1,4 @@
-const Navbar = () => {
-  return (
-    <div className="w-full px-20 py-8 ">
-      <svg
+<svg
         width="72"
         height="30"
         viewBox="0 0 72 30"
@@ -29,8 +26,3 @@ const Navbar = () => {
           fill="currentColor"
         ></path>
       </svg>
-    </div>
-  );
-};
-
-export default Navbar;
