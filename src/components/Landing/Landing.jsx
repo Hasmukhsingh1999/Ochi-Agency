@@ -2,7 +2,12 @@ import { motion } from "framer-motion";
 
 const Landing = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1 text-white">
+    <div
+    data-scroll
+    data-scroll-speed="-.3"
+    data-scroll-section
+      className="w-full h-screen bg-zinc-900 pt-1 text-white"
+    >
       <div className="textstructure mt-32 px-20">
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => (
           <div className="masker font-Neueue-Montreal" key={index}>
@@ -12,9 +17,13 @@ const Landing = () => {
                   className="w-[9vw] mr-[1vw] h-[5vw] overflow-hidden rounded-md"
                   initial={{ width: 0 }}
                   animate={{ width: "9vw" }}
-                  transition={{ ease: [0.76, 0, 0.24, 1],duration:1 }}
+                  transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
                 >
-                  <img src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" className="w-full h-full object-cover"/>
+                  <img
+                    src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg"
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
                 </motion.div>
               )}
               <h1 className="uppercase text-8xl h-full -leading-[-5vw] tracking-tighter font-semibold flex items-center">
