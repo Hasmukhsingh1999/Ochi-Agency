@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Landing = () => {
   return (
     <div className="w-full h-screen bg-zinc-900 pt-1 text-white">
@@ -6,7 +8,14 @@ const Landing = () => {
           <div className="masker font-Neueue-Montreal" key={index}>
             <div className="w-fit flex items-center ">
               {index === 1 && (
-                <div className="w-[9vw] mr-[1vw] h-[5vw] bg-red-500 rounded-md"></div>
+                <motion.div
+                  className="w-[9vw] mr-[1vw] h-[5vw] overflow-hidden rounded-md"
+                  initial={{ width: 0 }}
+                  animate={{ width: "9vw" }}
+                  transition={{ ease: [0.76, 0, 0.24, 1],duration:1 }}
+                >
+                  <img src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" className="w-full h-full object-cover"/>
+                </motion.div>
               )}
               <h1 className="uppercase text-8xl h-full -leading-[-5vw] tracking-tighter font-semibold flex items-center">
                 {item}
