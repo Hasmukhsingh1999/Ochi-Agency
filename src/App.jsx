@@ -1,6 +1,7 @@
 import About from "./components/About/About";
 import Alumini from "./components/Alumini/Alumini";
 import Features from "./components/Features/Features";
+import Footer from "./components/Footer/Footer";
 import Landing from "./components/Landing/Landing";
 import Marquee from "./components/Marquee/Marquee";
 import Navbar from "./components/Navbar/Navbar";
@@ -16,6 +17,7 @@ const App = () => {
       <Parallax />
       <Features/>
       <Alumini/>
+      <Footer/>
     </div>
   );
 };
