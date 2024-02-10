@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Features from "./components/Features/Features";
 import Landing from "./components/Landing/Landing";
 import Marquee from "./components/Marquee/Marquee";
 import Navbar from "./components/Navbar/Navbar";
@@ -12,6 +13,7 @@ const App = () => {
       <Marquee />
       <About />
       <Parallax />
+      <Features/>
     </div>
   );
 };
