@@ -2,6 +2,7 @@ import About from "./components/About/About";
 import Landing from "./components/Landing/Landing";
 import Marquee from "./components/Marquee/Marquee";
 import Navbar from "./components/Navbar/Navbar";
+import Parallax from "./components/Parallax/Parallax";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Landing />
       <Marquee />
       <About />
+      <Parallax />
     </div>
   );
 };
